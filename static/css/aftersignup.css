@@ -1,0 +1,22 @@
+#msg_box{
+	width: 500px;
+	margin: 70px auto;
+	border: 1px solid #1dbc25;
+	border-radius: 10px;
+	background-color: #95e1cc;
+}
+
+#greet{
+	font-size: 28px;
+	color: #379300;
+	border-bottom: 1px solid #1dbc25;
+	text-align: center;
+	padding: 12px 24px;
+}
+
+#msg{
+	font-size: 18px;
+	color: #6a2996;
+	padding: 12px 24px;
+	font-weight:bold;
+}

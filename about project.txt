@@ -1,0 +1,8 @@
+1. project is a mini app
+2. used mail concept
+3. for that the owner mail id is register in settings.py 
+   than owner's mail id is made less secure by security msg come in mailid.
+. mail send krne pr activation code generate krenge 
+
+4. authentication concept used.
+

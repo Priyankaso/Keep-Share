@@ -1,0 +1,112 @@
+ACcfe1ae7ffa0abbb4d749f0ce3f75b747 --account sid
+edb50228093be4e405ae9da24791801b   --auth_token
+
+
+
+
+
+python code
+
+from twilio.rest import Client
+
+
+# Your Account Sid and Auth Token from twilio.com/console
+# DANGER! This is insecure. See http://twil.io/secure
+account_sid = 'ACcfe1ae7ffa0abbb4d749f0ce3f75b747'
+auth_token = 'your_auth_token'
+client = Client(account_sid, auth_token)
+
+message = client.messages \
+    .create(
+         body='McAvoy or Stewart? These timelines can get so confusing.',
+         from_='+15017122661',
+         status_callback='http://postb.in/1234abcd',
+         to='+15558675310'
+     )
+
+print(message.sid)
+
+<input type="hidden" id="txnote_data_{{forloop.counter}}"
+							value="{{todo.textnote}
+
+
+<img src="{% static 'images/textnote.png'  %}" id="txnote" title="Text Note" />
+<img src="{% static 'images/chklst_.jpg' %}" id="chklist" title="Check List" />
+
+#txnote_edit_box{
+	width:95%;
+	height:280px;
+	margin:20px auto;
+	font-size:22px;
+	color:black;
+	padding: 10px;
+	/*background-color: skyblue;*/
+	background-image: linear-gradient(white,blue);
+	/*white-space: pre-wrap; 
+	white-space: pre-line;*/
+}
+
+#ttl_sv_{
+	position: absolute;
+	top: 8px;
+	right: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #a2e0e6;
+	padding: 6px 17px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+#ttl_sv_:hover {background-color: #49acd1}
+
+#textnote_main_box,#checklist_main_box{
+	display:none;
+	border:1px solid #7edde4;
+	border-radius:10px;
+	width: 95%;
+	margin: 20px auto;
+	background-color: yellow;
+	opacity:0.3;
+	/*height:380px;*/
+	margin-top:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	text-align:center;
+}
+
+#sbm_btn{
+	padding:8px 28px;
+	background-color:#fbc4fa; 
+	border:none;
+	cursor:pointer;
+	box-shadow: 0 9px #999;
+	transform: translateY(4px);
+	font-size:bold;
+	border-radius:10px;
+ }
+
+ mysql> UPDATE tutorials_tbl 
+   -> SET tutorial_title = 'Learning JAVA' 
+   -> WHERE tutorial_id = 3;
+
+   #########################################################
+   if(this.todotypeid==1){
+		textnote_main_box.style.display = 'block';
+		ttl_sv_.todotypeid = 1;	
+		ttl_type_.src = '/static/images/textnote_.jpg';
+		if(this.textnote!='None'){
+			txnote_edit_box.value = this.textnote;
+		}
+	}else{
+		checklist_main_box.style.display = 'block';
+		ttl_type_.src = '/static/images/chklst_.png';
+		ttl_sv_.todotypeid = 2;
+
+if(this.id=='txnote'){
+		txnote.src = '/static/images/textnote_.jpg'
+		chklist.src = '/static/images/checklist.jpg'
+	}else{
+		txnote.src = '/static/images/textnote.png'
+		chklist.src = '/static/images/chklst_.png'
+	}

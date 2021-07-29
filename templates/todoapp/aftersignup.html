@@ -1,0 +1,39 @@
+{% extends 'todoapp/base.html' %}
+
+{% block main_block %}
+	<style>
+	#msg_box{
+	width: 500px;
+	margin: 70px auto;
+	border: 1px solid #1dbc25;
+	border-radius: 10px;
+	background-color: #95e1cc;
+	}
+
+	#greet{
+	font-size: 28px;
+	color: #379300;
+	border-bottom: 1px solid #1dbc25;
+	text-align: center;
+	padding: 12px 24px;
+	}
+
+	#msg{
+	font-size: 18px;
+	color: #6a2996;
+	padding: 12px 24px;
+	font-weight:bold;
+	}
+
+	</style>
+
+	{% load staticfiles %}
+
+	<!--<link rel="stylesheet" type="text/css" href="{% static 'css/aftersignup.css' %}"  />-->
+
+	<div id="msg_box">
+		<div id="greet">Welcome!</div>
+		<div id="msg">Thanks for signing up! We just need you to verify your email address to complete setting up your account.</div>
+	</div>
+
+{% endblock %}
